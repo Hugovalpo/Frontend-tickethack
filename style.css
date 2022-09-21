@@ -2,6 +2,7 @@
     margin: 0%;
     height: 100vh;
 	width: 100vw;
+    overflow: hidden;
  }
  
  a, a:hover, a:visited, a:active {
@@ -98,7 +99,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    background-color: grey;
+    background-color: #f1f3f3;
     height: 98%;  
     
 }
@@ -115,10 +116,6 @@ input:hover {
     background-color: #dfe0dd;
 }
 
-#registerDate {
-
-
-}
  
 button {
 	display: flex;
@@ -146,19 +143,66 @@ button {
 #trips {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
+    font-size: 20px;
     color: #4ea890;
     font-family: "Open sans",sans-serif;
 }
 
-#tripslist {
+#tripslogo {
     height: 150px;
     width: 150px;
     background-image: url('./images/train.png');
     background-size: cover;
-    border: bottom 10px;
 
     
 }
+
+.divider {
+    background-color: #ababab;
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .dividergreen{
+    background-color: #4ea890;
+    height: 1px;
+    width: 80%;
+    z-index: 1;
+  }
+
+
+  .trip{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 10%;
+    background-color: #f1f3f3;
+  }
+
+.info {
+    display: flex;
+    font-family: "Open sans",sans-serif; 
+    color: black;
+    font-weight: bold;
+    font-size: 10;
+
+}
+    
+
+
+#book {
+    display: flex;
+	height: 20px;
+    width: 50px;
+	background-color: #4ea890;
+	font-size: 10px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+
