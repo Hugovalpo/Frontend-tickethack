@@ -4,11 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Varela+Round&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>TicketHack</title>
   </head>
-  <body>
-    <p>Hello</p>
+  <body> 
+          <div id="header">
+                  <div class="text-header" id="Title"><a href='index.html'><h2>Tickethack</h2></a></div>
+                        <div id="headright">
+                         <div class="text-header" id="cart"><a href='mycart.html'><p3>Cart</p3></a></div>
+                         <div class="text-header" id="bookings"><a href='mybooking.html'><p3> Bookings</p3></a></div>
+                       </div>
+                   </div>
+          </div>
+        <div class="container"> 
+                         <div id="title-container">
+                                <h1>Explore the world effortlessly by train! </h1>
+                                <h4> Compare, book and enjoy cheap prices for train tickets:
+                                  your journey starts on TicketHack</h4>
+                          </div>    
+                <div id="container">
+                  <div class="Card" id="dates">
+                      <div id="destination"> 
+                        <input id="registerDeparture" type="text" placeholder="Departure" />
+                        <input id="registerArrival" type="text" placeholder="Arrival" />
+                      </div>
+                      <input id="registerDate" type="date" placeholder="DD/MM/YYYY" onfocus="(this.type='date')" />
+                      <button id="Search">Search</button>
+                  </div>
+                  <div class="Card" id="trips">
+                            <div id="tripslist" ></div>
+                           <div class="divider"></div>
+                           <p>It's time to book your future trip</p>
+                  </div>
+              </div>
+        </div>
     <script src="script.js"></script>
   </body>
 </html>
