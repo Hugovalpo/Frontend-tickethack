@@ -1,15 +1,15 @@
-fetch('http://localhost:3000/booking')
-.then( responde => responde.json)
-.then ( Bookdata => {
-    if ( Bookdata ){
-            document.querySelector(#)
-        return true 
+// fetch('http://localhost:3000/booking')
+// .then( responde => responde.json)
+// .then ( Bookdata => {
+//     if ( Bookdata ){
+//             document.querySelector(#)
+//         return true 
 
-    } else {
+//     } else {
         
-        return false
-    }
+//         return false
+//     }
                 
                 
 
-}
+// }
